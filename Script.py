@@ -7,7 +7,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
 
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Rafeeq_Kunnimon'>ʀᴀꜰᴇᴇᴋ</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/adinannissar'>Aᴅɪɴᴀɴ</a>
 
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 
@@ -23,11 +23,11 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/Rafeeq_Kunnimon">ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/adinannissar">ʜᴇʀᴇ</a>
 
 Dᴇᴠᴇʟᴏᴘᴇʀ:
 
-- <a href="https://t.me/Rafeeq_Kunnimon">ʀᴀꜰᴇᴇᴋ ᠰ Tɢ</a></b>"""
+- <a href="https://t.me/adinannissar">Aᴅɪɴᴀɴ ᠰ Tɢ</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -48,7 +48,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/MalayalamCinemaUniverseofficial)</code>
+<code>[Button Text](buttonurl:https://t.me/moviesOG)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -158,9 +158,9 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍᴜʜᴀᴍᴍᴇᴅ ʀᴀꜰᴇᴇᴋ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @Rafeeq_Kunnimon
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/Rafeeq_Kunnimon'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Aᴅɪɴᴀɴ Nɪssᴀʀ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @AdinanNissar
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/adinannissar'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -169,7 +169,7 @@ Nᴀᴍᴇ - {}"""
 
 ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ 
 
-©Mᴀʟᴀʏᴀʟᴀᴍ Cɪɴᴇᴍᴀ Uɴɪᴠᴇʀsᴇ"""
+©MoviesOG"""
     
     GRPINFO = """
 അഥവാ ഗ്രൂപ്പ് കോപ്പിറൈറ്റ് കിട്ടി പോയാൽ.. പുതിയ ഗ്രൂപ്പ് തുടങ്ങുമ്പോൾ ഇപ്പോൾ ജോയിൻ ആവുന്ന ചാനൽ വഴി ആയിരിക്കും അറിയുക 🤥"""
@@ -205,19 +205,17 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code><b>{file_name}</b></code>
+    CAPTION = """<b> Fɪʟᴇ ɴᴀᴍᴇ : </b> <code><b>{file_name}</b></code>
 <b>
 ╭─────── • ◆ • ───────╮
 
-🔅 ᴊᴏɪɴ ɢʀᴏᴜᴩ :  <a href="https://t.me/Malayalam_Cinema_Universe">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+🔅 ᴊᴏɪɴ ɢʀᴏᴜᴩ :  <a href="https://t.me/MoviesOG">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 ╰─────── • ◆ • ───────╯
 
 ===========•✠•===========
 
-▫️ ᴄʜᴀɴɴᴇʟ : @MalayalamCinemaUniverseofficial
-
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Malayalam_Cinema_Universe_Group
+▫️ ᴄʜᴀɴɴᴇʟ : @NetFlixOxG
 
 ===========•✠•===========</b>"""
     
