@@ -109,7 +109,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📂 [{get_size(file.file_size)}] ▷ {file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    text=f" [{get_size(file.file_size)}] ▷ {file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -121,7 +121,7 @@ async def next_page(bot, query):
                     text=f"▷ {file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
-                    text=f"📂 {get_size(file.file_size)}",
+                    text=f" {get_size(file.file_size)}",
                     url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -131,7 +131,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📂 [{get_size(file.file_size)}] ▷ {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f" [{get_size(file.file_size)}] ▷ {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -143,7 +143,7 @@ async def next_page(bot, query):
                     text=f"▷ {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
-                    text=f"📂 {get_size(file.file_size)}",
+                    text=f" {get_size(file.file_size)}",
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
@@ -260,7 +260,7 @@ async def language_check(bot, query):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"📂 [{get_size(file.file_size)}] ▷ {file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
+                        text=f" [{get_size(file.file_size)}] ▷ {file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                     ),
                 ]
                 for file in files
@@ -273,7 +273,7 @@ async def language_check(bot, query):
                         url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                     ),
                     InlineKeyboardButton(
-                        text=f"📂 {get_size(file.file_size)}",
+                        text=f" {get_size(file.file_size)}",
                         url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                     ),
                 ]
@@ -283,7 +283,7 @@ async def language_check(bot, query):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"📂 [{get_size(file.file_size)}] ▷ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                        text=f" [{get_size(file.file_size)}] ▷ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                     ),
                 ]
                 for file in files
@@ -296,7 +296,7 @@ async def language_check(bot, query):
                         callback_data=f'{pre}#{file.file_id}',
                     ),
                     InlineKeyboardButton(
-                        text=f"📂 {get_size(file.file_size)}",
+                        text=f" {get_size(file.file_size)}",
                         callback_data=f'{pre}#{file.file_id}',
                     ),
                 ]
@@ -309,7 +309,6 @@ async def language_check(bot, query):
         )
         btn.insert(1,
             [
-                InlineKeyboardButton(f"📟 ꜰɪʟᴇꜱ: {total_results}", callback_data="mm"),
                 InlineKeyboardButton(f'🎁 ᴛɪᴩꜱ', 'minfo'),
                 InlineKeyboardButton(f'📨 ɪɴꜰᴏ', 'reqinfo')
             ]
@@ -1027,16 +1026,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇs ', url=CHNL_LNK),
+                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('🕵️‍♂️ Aʙᴏᴜᴛ', callback_data='about')
+                    
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1089,17 +1088,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     
-    elif query.data == "help":
-        buttons = [[
-            InlineKeyboardButton('🖥️ FIʟᴛᴇʀs 🖥️', callback_data='filters'),
-            InlineKeyboardButton('📂 Fɪʟᴇ Sᴛᴏʀᴇ 📂', callback_data='store_file')
-        ], [
-            InlineKeyboardButton('🔌 Cᴏɴɴᴇᴄᴛɪᴏɴ 🔌', callback_data='coct'),
-            InlineKeyboardButton('♻️ Exᴛʀᴀ Mᴏᴅs ♻️', callback_data='extra')
-        ], [
-            InlineKeyboardButton('🏡 Hᴏᴍᴇ 🏡', callback_data='start'),
-            InlineKeyboardButton('🔰 Sᴛᴀᴛᴜs 🔰', callback_data='stats')
-        ]]
+    elif query.data == "help"
+            buttons = [[
+                    InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇs ', url=CHNL_LNK),
+                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
+                ],[
+                    InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('🕵️‍♂️ Aʙᴏᴜᴛ', callback_data='about')
+                    
+                ],[
+                    InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
+                  ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1117,8 +1118,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
         ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('🏠 Hᴏᴍᴇ 🏠', callback_data='start'),
+            InlineKeyboardButton('🚫 Cʟᴏsᴇ 🚫', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1210,7 +1211,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admin')
+            InlineKeyboardButton('⚙️ Aᴅᴍɪɴ ⚙️', callback_data='admin')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1305,7 +1306,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/creatorbeatz")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/adinannissar")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1449,7 +1450,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📂 [{get_size(file.file_size)}] ▷ {file.file_name}", url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
+                    text=f" [{get_size(file.file_size)}] ▷ {file.file_name}", url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -1462,7 +1463,7 @@ async def auto_filter(client, msg, spoll=False):
                     url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
-                    text=f"📂 {get_size(file.file_size)}",
+                    text=f" {get_size(file.file_size)}",
                     url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -1472,7 +1473,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📂 [{get_size(file.file_size)}] ▷ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f" [{get_size(file.file_size)}] ▷ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1485,7 +1486,7 @@ async def auto_filter(client, msg, spoll=False):
                     callback_data=f'{pre}#{file.file_id}',
                 ),
                 InlineKeyboardButton(
-                    text=f"📂 {get_size(file.file_size)}",
+                    text=f" {get_size(file.file_size)}",
                     callback_data=f'{pre}#{file.file_id}',
                 ),
             ]
