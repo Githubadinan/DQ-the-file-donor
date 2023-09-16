@@ -20,6 +20,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+UPTIME = time.time()
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/fdc8f4ae91af058654b97.jpg https://telegra.ph/file/e5619c0fb3c6422a5a601.jpg https://telegra.ph/file/7cbd5a08f425f3262b1e2.jpg https://telegra.ph/file/18389f3d753cbf100c2ea.jpg https://telegra.ph/file/dca73c4198c428eb45d5a.jpg https://telegra.ph/file/da11f8587a9606ff1daf4.jpg https://telegra.ph/file/d8d4262b63085721da84d.jpg https://telegra.ph/file/b84920a55bb7f174d1ca4.jpg https://telegra.ph/file/29e097256cd76501b1d84.jpg https://telegra.ph/file/761accbb48571ac77f326.jpg https://telegra.ph/file/55a48b93ea7e06e83147e.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/ff24d642faf98ab93a010.jpg")
