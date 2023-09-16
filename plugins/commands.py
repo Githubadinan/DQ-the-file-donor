@@ -35,7 +35,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgIAAxkBAAICbmR_9kyaUVttQb-BuLR-409R6gjNAAIoFgACsA6hS5L1qhVlD1HxHgQ")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
         await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
@@ -67,7 +67,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgIAAxkBAAICbmR_9kyaUVttQb-BuLR-409R6gjNAAIoFgACsA6hS5L1qhVlD1HxHgQ")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
         await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
@@ -108,7 +108,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgIAAxkBAAICbmR_9kyaUVttQb-BuLR-409R6gjNAAIoFgACsA6hS5L1qhVlD1HxHgQ")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
         await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
