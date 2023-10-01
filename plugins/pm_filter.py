@@ -1032,7 +1032,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                   ]]
         
-                reply_markup = InlineKeyboardMarkup(buttons)
+                python
+reply_markup = InlineKeyboardMarkup(
+    buttons
+)
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
